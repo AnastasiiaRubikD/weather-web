@@ -1,14 +1,12 @@
-import logo from "./logo.svg";
 import "./App.css";
 
-import Search from "./Search";
-import CurrentDay from "./CurrentDay";
+import Weather from "./Weather";
 
 function App() {
   return (
     <div className="App">
-      <Search />
-      <CurrentDay city="New York" temp="21" />
+      <h1>Weather App</h1>
+      <Weather />
     </div>
   );
 }
